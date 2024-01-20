@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,6 +19,9 @@
       rel="stylesheet"
     />
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9c35e5d5c2.js" crossorigin="anonymous"></script>
+
     <!-- custom font style  -->
     <style>
         .font-manrope{
@@ -26,7 +29,39 @@
         }
     </style>
   </head>
-  <body>
-    
+  <body class="font-manrope">
+    <!-- banner section  -->
+    <section>
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+                <!-- main title  -->
+              <div>
+                <h1 class="text-7xl font-extrabold">
+                    It's good <br>
+                    tea time at <br>
+                    The Tea House
+                </h1>
+                <p class=" text-[#777777] text-lg font-medium py-6">
+                    Tea and Botanical Solutions 
+                    Supplier Give Optimum Satisfaction 
+                    To Your Taste Buds.
+                </p>
+                <button class="btn btn-primary">Explore More</button>
+              </div>
+              <!-- banner Photo -->
+              <div>
+                <img src="images/banner.png" class="max-w-sm rounded-lg " />
+                <div class="-mt-16 flex  items-center gap-4 bg-[#FFFFFF] p-5 w-60 rounded-lg drop-shadow-md">
+                    <i class="fa-solid fa-star text-3xl text-orange-300  "></i>
+                    <div>
+                        <h4 class="text-[#1C1C1C] text-3xl font-extrabold">5.00</h4>
+                        <p class="text-[#777777] text-base font-semibold">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
   </body>
 </html>
